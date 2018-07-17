@@ -36,6 +36,15 @@ SPARK_MIRROR_DOWNLOAD=http://archive.apache.org/dist/spark/$SPARK_VERSION/$SPARK
 SPARK_RES_DIR=/vagrant/resources/spark
 SPARK_CONF_DIR=/usr/local/spark/conf
 
+# livy
+LIVY_VERSION=0.5.0
+LIVY_ARCHIVE=livy-$LIVY_VERSION-incubating-bin.zip
+LIVY_MIRROR_DOWNLOAD=http://apache.mirrors.tds.net/incubator/livy/$LIVY_VERSION-incubating/$LIVY_ARCHIVE
+LIVY_RES_DIR=/vagrant/resources/livy
+LIVY_HOME=/usr/local/livy
+LIVY_CONF=${LIVY_HOME}/conf
+LIVY_CONF_DIR=${LIVY_CONF}
+
 # ssh
 SSH_RES_DIR=/vagrant/resources/ssh
 RES_SSH_COPYID_ORIGINAL=$SSH_RES_DIR/ssh-copy-id.original

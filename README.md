@@ -35,6 +35,7 @@ The virtual machine will be running the following services:
     * Hadoop 2.7.3
     * Hive 1.2.2
     * Spark 2.1.1
+    * Livy 0.5.0
     * mysql 5.7 (for hive metastore)
     * Tez 0.8.5
     * Sqoop 1.4.6
@@ -45,6 +46,7 @@ The virtual machine will be running the following services:
     * Hadoop 2.7.6
     * Hive 2.3.3
     * Spark 2.3.0
+    * Livy 0.5.0
     * mysql 5.7 (for hive metastore)
     * Tez 0.9.1
     * Sqoop 1.4.6
@@ -86,6 +88,7 @@ Here are some useful links to navigate to various UI's:
 * Spark history server: (http://10.211.55.101:18080)
 * Spark context UI (if a Spark context is running): (http://10.211.55.101:4040)
 * Zeppelin notebook (if notebook server is started) (http://10.211.55.101:8080)
+* Livy UI: (http://10.211.55.101:8998/ui#)
 
 # Apache Zeppelin notebook server
 
